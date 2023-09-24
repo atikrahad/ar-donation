@@ -1,9 +1,16 @@
+import Banner from "../Banner/Banner";
 import Nav from "../Navber/Nav";
+import './Header.css'
 
 const Header = () => {
     return (
-        <div>
+        <div className="header overlay  h-[80vh]">
             <Nav></Nav>
+            <div className="flex items-center justify-center">
+                <div>
+                    <Banner></Banner>
+                </div>
+            </div>
         </div>
     );
 };
