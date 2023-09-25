@@ -1,5 +1,9 @@
 import PropTypes from 'prop-types';
-const HomeDonationCard = ({ catagory }) => {
+import { useNavigate } from 'react-router-dom';
+
+
+
+const HomeDonationCard = ({ catagory}) => {
   const {
     Title,
     Category,
@@ -10,9 +14,14 @@ const HomeDonationCard = ({ catagory }) => {
     Text_Button_BG_Color,
   } = catagory;
   
+  const navigate = useNavigate()
+  const handleClickcardData = (catagory) => {
+    navigate("/selectcard", {state: catagory})
+  }
   
+
   return (
-    <div style={{backgroundColor: Card_BG_Color}} className="card card-compact   shadow-xl">
+    <div onClick={()=>handleClickcardData(catagory)} style={{backgroundColor: Card_BG_Color}} className="card card-compact   shadow-xl">
       <figure>
         <img className="w-full h-44"
           src={img}
@@ -29,5 +38,6 @@ const HomeDonationCard = ({ catagory }) => {
 };
 HomeDonationCard.propTypes = {
     catagory: PropTypes.object.isRequired,
+    handleClickcardData: PropTypes.func.isRequired
 }
 export default HomeDonationCard;

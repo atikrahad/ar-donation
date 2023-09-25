@@ -11,10 +11,13 @@ const Home = () => {
     },[])
     
     return (
-        <div className="md:w-[85%] mx-auto grid grid-cols-4 gap-4 py-10">
+        <div>
+            
+            <div className="md:w-[85%] mx-auto grid grid-cols-4 gap-4 py-10">
             {
-                catagorycard.map(catagory => <HomeDonationCard key={catagory.id} catagory={catagory}></HomeDonationCard>)
+                catagorycard.map(catagory => <HomeDonationCard  key={catagory.id} catagory={catagory}></HomeDonationCard>)
             }
+        </div>
         </div>
     );
 };

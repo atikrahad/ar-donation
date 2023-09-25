@@ -9,7 +9,6 @@ const Nav = () => {
     const handleNavIconClick = open => {
         setOpen(open);
     }
-    console.log(open);
     return (
         <nav className='flex z-[1] opacity-100 bg-slate-100 md:bg-transparent px-5 md:w-[80%] py-5 mx-auto justify-between items-center'>
             <img className='w-48

@@ -7,25 +7,28 @@ import Root from "./Components/Root/Root";
 import Home from "./Components/Home/Home";
 import Donation from "./Components/Donation/Donation";
 import Statistics from "./Components/Statistics/Statistics";
+import Selectcard from "./Components/SelectCard/Selectcard";
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Root></Root>,
-    children: [
-      {
-        path: '/',
-        
-        element: <Home></Home>
-      },
-      {
-        path: '/donation',
-        element: <Donation></Donation>
-      },
-      {
-        path: '/statistics',
-        element: <Statistics></Statistics>
-      }
-    ]
+  },
+  {
+    path: "/",
+
+    element: <Home></Home>,
+  },
+  {
+    path: "/donation",
+    element: <Donation></Donation>,
+  },
+  {
+    path: "/statistics",
+    element: <Statistics></Statistics>,
+  },
+  {
+    path: "/selectcard",
+    element: <Selectcard></Selectcard>,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
