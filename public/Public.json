@@ -1,135 +1,137 @@
+
 [
-    {
-      "id": 1,
-      "Title": "Support School Supplies for Underprivileged Kids",
-      "Category": "Education",
-      "Category_BG_Color": "#3498db",
-      "Card_BG_Color": "#e1e1e1",
-      "Text_Button_BG_Color": "#ffffff",
-      "Description": "Your donation will help provide essential school supplies to underprivileged children, ensuring they have the tools they need for a successful education. Make a difference in a child's life today.",
-      "Price": 200.00,
-      "img": "https://i.ibb.co/MgR1rFy/09-2015-06-SCHOOLBAGSBASECO-CHURCH-033.webp"
-    },
-    {
-      "id": 2,
-      "Title": "Emergency Food Relief for Families in Crisis",
-      "Category": "Food",
-      "Category_BG_Color": "#27ae60",
-      "Card_BG_Color": "#f9f9f9",
-      "Text_Button_BG_Color": "#000000",
-      "Description": "Support families facing food insecurity by providing emergency food relief. Your donation will help ensure that no one goes to bed hungry.",
-      "Price": 250.00,
-      "img": "https://i.ibb.co/1d6xdyc/Emergency-FA-8.jpg"
-    },
-    {
-      "id": 3,
-      "Title": "Animal Welfare and Rescue",
-      "Category": "Animal Welfare",
-      "Category_BG_Color": "#e67e22",
-      "Card_BG_Color": "#f8f8f8",
-      "Text_Button_BG_Color": "#666666",
-      "Description": "Help protect and care for animals in need through various welfare programs and rescue operations. Your donation contributes to their well-being and safety.",
-      "Price": 300.00,
-      "img": "https://i.ibb.co/bHZdG3R/pawssion-project-family-2021-01-27-10-01-48.jpg"
-    },
-    {
-      "id": 4,
-      "Title": "Medical Aid for Vulnerable Communities",
-      "Category": "Healthcare",
-      "Category_BG_Color": "#f39c12",
-      "Card_BG_Color": "#f6f6f6",
-      "Text_Button_BG_Color": "#555555",
-      "Description": "Equip healthcare professionals with essential medical supplies and healthcare services to vulnerable communities in need. Your donation helps save lives and improve health outcomes.",
-      "Price": 220.00,
-      "img": "https://i.ibb.co/0QzmqmD/b266634c-4f15-4d69-9fe5-e0293dbf30e9.jpg"
-    },
-    {
-      "id": 5,
-      "Title": "Support Clean Water Projects",
-      "Category": "Education",
-      "Category_BG_Color": "#3498db",
-      "Card_BG_Color": "#e1e1e1",
-      "Text_Button_BG_Color": "#ffffff",
-      "Description": "Contribute to clean water projects in underserved areas, ensuring access to safe drinking water. Your donation transforms lives and promotes health and hygiene.",
-      "Price": 220.00,
-      "img": "https://i.ibb.co/5BXw75C/project-103395-body-Completion-SHP-43-4.jpg"
-    },
-    {
-      "id": 6,
-      "Title": "Nutritional Support for Malnourished Children",
-      "Category": "Food",
-      "Category_BG_Color": "#27ae60",
-      "Card_BG_Color": "#f9f9f9",
-      "Text_Button_BG_Color": "#000000",
-      "Description": "Help combat child malnutrition by providing nutritional support to vulnerable children. Your donation ensures they receive the nourishment they need for a brighter future.",
-      "Price": 230.00,
-      "img": "https://i.ibb.co/y0ZKZFH/1-o7-Nt-UQBXc-ADcv-H3-Hq-Ti4-Cg.jpg"
-    },
-    {
-      "id": 7,
-      "Title": "Wildlife Conservation and Habitat Preservation",
-      "Category": "Animal Welfare",
-      "Category_BG_Color": "#e67e22",
-      "Card_BG_Color": "#f8f8f8",
-      "Text_Button_BG_Color": "#666666",
-      "Description": "Contribute to wildlife conservation and the preservation of their natural habitats. Your donation helps protect endangered species and biodiversity.",
-      "Price": 300.00,
-      "img": "https://i.ibb.co/C5x14ZY/download.jpg"
-    },
-    {
-      "id": 8,
-      "Title": "Support Mental Health Awareness Programs",
-      "Category": "Healthcare",
-      "Category_BG_Color": "#f39c12",
-      "Card_BG_Color": "#f6f6f6",
-      "Text_Button_BG_Color": "#555555",
-      "Description": "Promote mental health awareness and support programs to help individuals struggling with mental health challenges. Your donation reduces stigma and provides valuable resources.",
-      "Price": 250.00,
-      "img": "https://i.ibb.co/BCBY5m7/Importance-of-MH-Awareness.jpg"
-    },
-    {
-      "id": 9,
-      "Title": "Scholarships for Underprivileged Students",
-      "Category": "Education",
-      "Category_BG_Color": "#3498db",
-      "Card_BG_Color": "#e1e1e1",
-      "Text_Button_BG_Color": "#ffffff",
-      "Description": "Enable underprivileged students to pursue higher education by providing scholarships. Your donation opens doors to brighter futures and increased opportunities.",
-      "Price": 500.00,
-      "img": "https://i.ibb.co/BKMmn0M/Siouxee-Tour-Guide.png"
-    },
-    {
-      "id": 10,
-      "Title": "Community Gardens for Sustainable Living",
-      "Category": "Food",
-      "Category_BG_Color": "#27ae60",
-      "Card_BG_Color": "#f9f9f9",
-      "Text_Button_BG_Color": "#000000",
-      "Description": "Support the creation of community gardens to promote sustainable agriculture and provide fresh produce to local communities. Your donation fosters self-reliance and healthy living.",
-      "Price": 220.00,
-      "img": "https://i.ibb.co/vjDrFy9/Solar-Panels-in-Gardens-1024x768.jpg"
-    },
-    {
-      "id": 11,
-      "Title": "Rescue and Rehabilitation of Injured Wildlife",
-      "Category": "Animal Welfare",
-      "Category_BG_Color": "#e67e22",
-      "Card_BG_Color": "#f8f8f8",
-      "Text_Button_BG_Color": "#666666",
-      "Description": "Help rescue and rehabilitate injured and orphaned wildlife, giving them a second chance at life in the wild. Your donation supports their care and eventual release.",
-      "Price": 270.00,
-      "img": "https://i.ibb.co/K6xT3xf/wildliferehabcollage-scaled.webp"
-    },
-    {
-      "id": 12,
-      "Title": "Access to Essential Healthcare in Remote Areas",
-      "Category": "Healthcare",
-      "Category_BG_Color": "#f39c12",
-      "Card_BG_Color": "#f6f6f6",
-      "Text_Button_BG_Color": "#555555",
-      "Description": "Ensure access to essential healthcare services in remote and underserved areas. Your donation helps establish clinics, provide medical supplies, and improve health outcomes.",
-      "Price": 300.00,
-      "img": "https://i.ibb.co/qNpFYv0/UN0446643.jpg"
-    }
-  ]
+  {
+    "id": 1,
+    "Title": "Support School Supplies for Underprivileged Kids",
+    "Category": "Education",
+    "Category_BG_Color": "#3498db",
+    "Card_BG_Color": "#b9d6ed",
+    "Text_Button_BG_Color": "#c9e4f9",
+    "Description": "Your donation will help provide essential school supplies to underprivileged children, ensuring they have the tools they need for a successful education. Make a difference in a child's life today.",
+    "Price": 200.00,
+    "img": "https://i.ibb.co/MgR1rFy/09-2015-06-SCHOOLBAGSBASECO-CHURCH-033.webp"
+  },
+  {
+    "id": 2,
+    "Title": "Emergency Food Relief for Families in Crisis",
+    "Category": "Food",
+    "Category_BG_Color": "#27ae60",
+    "Card_BG_Color": "#a7d8c7",
+    "Text_Button_BG_Color": "#b3e3bb",
+    "Description": "Support families facing food insecurity by providing emergency food relief. Your donation will help ensure that no one goes to bed hungry.",
+    "Price": 250.00,
+    "img": "https://i.ibb.co/1d6xdyc/Emergency-FA-8.jpg"
+  },
+  {
+    "id": 3,
+    "Title": "Animal Welfare and Rescue",
+    "Category": "Animal Welfare",
+    "Category_BG_Color": "#e67e22",
+    "Card_BG_Color": "#f8ddc8",
+    "Text_Button_BG_Color": "#f3d3b1",
+    "Description": "Help protect and care for animals in need through various welfare programs and rescue operations. Your donation contributes to their well-being and safety.",
+    "Price": 300.00,
+    "img": "https://i.ibb.co/bHZdG3R/pawssion-project-family-2021-01-27-10-01-48.jpg"
+  },
+  {
+    "id": 4,
+    "Title": "Medical Aid for Vulnerable Communities",
+    "Category": "Healthcare",
+    "Category_BG_Color": "#f39c12",
+    "Card_BG_Color": "#fdeccf",
+    "Text_Button_BG_Color": "#fbe8b2",
+    "Description": "Equip healthcare professionals with essential medical supplies and healthcare services to vulnerable communities in need. Your donation helps save lives and improve health outcomes.",
+    "Price": 220.00,
+    "img": "https://i.ibb.co/0QzmqmD/b266634c-4f15-4d69-9fe5-e0293dbf30e9.jpg"
+  },
+  {
+    "id": 5,
+    "Title": "Support Clean Water Projects",
+    "Category": "Education",
+    "Category_BG_Color": "#3498db",
+    "Card_BG_Color": "#b9d6ed",
+    "Text_Button_BG_Color": "#c9e4f9",
+    "Description": "Contribute to clean water projects in underserved areas, ensuring access to safe drinking water. Your donation transforms lives and promotes health and hygiene.",
+    "Price": 220.00,
+    "img": "https://i.ibb.co/5BXw75C/project-103395-body-Completion-SHP-43-4.jpg"
+  },
+  {
+    "id": 6,
+    "Title": "Nutritional Support for Malnourished Children",
+    "Category": "Food",
+    "Category_BG_Color": "#27ae60",
+    "Card_BG_Color": "#a7d8c7",
+    "Text_Button_BG_Color": "#b3e3bb",
+    "Description": "Help combat child malnutrition by providing nutritional support to vulnerable children. Your donation ensures they receive the nourishment they need for a brighter future.",
+    "Price": 230.00,
+    "img": "https://i.ibb.co/y0ZKZFH/1-o7-Nt-UQBXc-ADcv-H3-Hq-Ti4-Cg.jpg"
+  },
+  {
+    "id": 7,
+    "Title": "Wildlife Conservation and Habitat Preservation",
+    "Category": "Animal Welfare",
+    "Category_BG_Color": "#e67e22",
+    "Card_BG_Color": "#f8ddc8",
+    "Text_Button_BG_Color": "#f3d3b1",
+    "Description": "Contribute to wildlife conservation and the preservation of their natural habitats. Your donation helps protect endangered species and biodiversity.",
+    "Price": 300.00,
+    "img": "https://i.ibb.co/C5x14ZY/download.jpg"
+  },
+  {
+    "id": 8,
+    "Title": "Support Mental Health Awareness Programs",
+    "Category": "Healthcare",
+    "Category_BG_Color": "#f39c12",
+    "Card_BG_Color": "#fdeccf",
+    "Text_Button_BG_Color": "#fbe8b2",
+    "Description": "Promote mental health awareness and support programs to help individuals struggling with mental health challenges. Your donation reduces stigma and provides valuable resources.",
+    "Price": 250.00,
+    "img": "https://i.ibb.co/BCBY5m7/Importance-of-MH-Awareness.jpg"
+  },
+  {
+    "id": 9,
+    "Title": "Scholarships for Underprivileged Students",
+    "Category": "Education",
+    "Category_BG_Color": "#3498db",
+    "Card_BG_Color": "#b9d6ed",
+    "Text_Button_BG_Color": "#c9e4f9",
+    "Description": "Enable underprivileged students to pursue higher education by providing scholarships. Your donation opens doors to brighter futures and increased opportunities.",
+    "Price": 500.00,
+    "img": "https://i.ibb.co/BKMmn0M/Siouxee-Tour-Guide.png"
+  },
+  {
+    "id": 10,
+    "Title": "Community Gardens for Sustainable Living",
+    "Category": "Food",
+    "Category_BG_Color": "#27ae60",
+    "Card_BG_Color": "#a7d8c7",
+    "Text_Button_BG_Color": "#b3e3bb",
+    "Description": "Support the creation of community gardens to promote sustainable agriculture and provide fresh produce to local communities. Your donation fosters self-reliance and healthy living.",
+    "Price": 220.00,
+    "img": "https://i.ibb.co/vjDrFy9/Solar-Panels-in-Gardens-1024x768.jpg"
+  },
+  {
+    "id": 11,
+    "Title": "Rescue and Rehabilitation of Injured Wildlife",
+    "Category": "Animal Welfare",
+    "Category_BG_Color": "#e67e22",
+    "Card_BG_Color": "#f8ddc8",
+    "Text_Button_BG_Color": "#f3d3b1",
+    "Description": "Help rescue and rehabilitate injured and orphaned wildlife, giving them a second chance at life in the wild. Your donation supports their care and eventual release.",
+    "Price": 270.00,
+    "img": "https://i.ibb.co/K6xT3xf/wildliferehabcollage-scaled.webp"
+  },
+  {
+    "id": 12,
+    "Title": "Access to Essential Healthcare in Remote Areas",
+    "Category": "Healthcare",
+    "Category_BG_Color": "#f39c12",
+    "Card_BG_Color": "#fdeccf",
+    "Text_Button_BG_Color": "#fbe8b2",
+    "Description": "Ensure access to essential healthcare services in remote and underserved areas. Your donation helps establish clinics, provide medical supplies, and improve health outcomes.",
+    "Price": 300.00,
+    "img": "https://i.ibb.co/qNpFYv0/UN0446643.jpg"
+  }
+]
+
   
