@@ -1,4 +1,4 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation, } from "react-router-dom";
 import Nav from "../Navber/Nav";
 import { setData } from "../../utilitis/utlitis";
 
@@ -17,12 +17,13 @@ const Selectcard = () => {
   } = selectData;
 
   
-  const navigate = useNavigate()
+  
   
   const handleClickDonated = () => {
-    navigate('/donation',)
+    
     setData(selectData.id)
     
+        
   }
 
 
@@ -45,7 +46,9 @@ const Selectcard = () => {
           {Title}
         </h1>
         <p className="text-justify py-2 text-[#0b0b0bb3]">{Description}</p>
+        
       </div>
+      
     </div>
   );
 };

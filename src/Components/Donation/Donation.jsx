@@ -36,7 +36,7 @@ const Donation = () => {
   return (
     <div>
       <Nav></Nav>
-      <div className="w-[80%] py-4 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div className=" w-[95%] md:w-[80%] py-4 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
         {
             openall===true?  doneted.map((data) => (
                 <Doneted key={data.id} data={data}></Doneted>
