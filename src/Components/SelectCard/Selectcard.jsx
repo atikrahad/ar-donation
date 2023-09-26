@@ -1,6 +1,8 @@
 import { useLocation, } from "react-router-dom";
 import Nav from "../Navber/Nav";
-import { setData } from "../../utilitis/utlitis";
+import { getStored, setData } from "../../utilitis/utlitis";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 
 const Selectcard = () => {
@@ -19,11 +21,39 @@ const Selectcard = () => {
   
   
   
+  
+  
+  const storedData = getStored();
+  const finded = storedData.find(data => data ===selectData.id);
   const handleClickDonated = () => {
     
-    setData(selectData.id)
-    
+    if(!finded){
         
+        toast.success('❤️Donate sucsessfull', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            });
+        setData(selectData.id)
+    }else{
+        
+        toast.warn('Already Donated', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            });
+    }
+       
   }
 
 
@@ -48,7 +78,7 @@ const Selectcard = () => {
         <p className="text-justify py-2 text-[#0b0b0bb3]">{Description}</p>
         
       </div>
-      
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
