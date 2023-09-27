@@ -1,7 +1,7 @@
 
 .header{
-    background: url(), #f5deb3 ;
-    background:linear-gradient(0deg, rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.938)), url('./public/Rectangle.png');
+    
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.938)), url('../img/Rectangle.png');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 
 const Header = ({handleCatagorySearch, handleSearchClick}) => {
     return (
-        <div className="header overlay  h-[60vh]">
+        <div style={{}} className="header overlay  h-[60vh]">
             <Nav></Nav>
             <div className="flex items-center justify-center">
                 <div>

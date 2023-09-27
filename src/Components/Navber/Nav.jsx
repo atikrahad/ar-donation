@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from 'react';
 import './Nav.css'
+import logo from '../img/Logo.png'
 
 const Nav = () => {
     const [open, setOpen] = useState('!open');
@@ -12,7 +13,7 @@ const Nav = () => {
     return (
         <nav className='flex  opacity-100  md:bg-transparent w-[95%] md:w-[80%] py-5 mx-auto justify-between items-center'>
             <img className='w-48
-            ' src="./public/logo.png" alt="" />
+            ' src={logo} alt="" />
             <div className='md:hidden text-2xl' onClick={()=> handleNavIconClick(!open)}>
                 {
                     open? <AiOutlineMenu></AiOutlineMenu> : <AiOutlineClose></AiOutlineClose>
