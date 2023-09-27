@@ -1,8 +1,8 @@
-# React + Vite
+# This wonderful project was created by React + vite + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## This project's most important 4 features
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 4 Category's  12 institutions data from Public.json load the homepage.
+- On the home page also a search option you can search by category name. 
+- Clicked any institutional data then redirected to the selected institution details page and there you can donate money.
+- After donated money, you can see the donation page, and you can also see how parentage you have donated on the statistics page.
