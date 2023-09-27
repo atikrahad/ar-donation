@@ -16,7 +16,7 @@ const Home = ({filteringdata}) => {
     return (
         <div >
             
-            <div className="w-[95%] md:w-[85%] mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 py-10">
+            <div className="w-[95%] md:w-[85%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-10">
             {
                  filteringdata.length === 0? catagorycard.map(catagory => <HomeDonationCard  key={catagory.id} catagory={catagory}></HomeDonationCard>) : filteringdata.map(catagory => <HomeDonationCard  key={catagory.id} catagory={catagory}></HomeDonationCard>) 
             }

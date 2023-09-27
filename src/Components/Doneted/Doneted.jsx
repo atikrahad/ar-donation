@@ -33,7 +33,7 @@ const Doneted = ({ data }) => {
         >
           {Category}
         </button>
-        <h2 className="font-semibold  text-xl">{Title}</h2>
+        <h2 className="font-semibold  text-md md:text-xl">{Title}</h2>
         <p style={{ color: Category_BG_Color }} className="font-semibold">
           ${Price}
         </p>
@@ -41,7 +41,7 @@ const Doneted = ({ data }) => {
           <button
             onClick={() => handleDetailsClick(data)}
             style={{ backgroundColor: Category_BG_Color, color: "white" }}
-            className="py-1 rounded-md px-4"
+            className="py-1 font-semibold rounded-md px-4"
           >
             View Details
           </button>
