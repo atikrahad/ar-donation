@@ -48,7 +48,7 @@ const Donation = () => {
       <div className="flex items-center py-6 justify-center">
         <button
           onClick={handleClickSeeall}
-          className={`bg-[#009444] ${openall === true || doneted.length<4? 'hidden':''} rounded-md text-white font-medium py-2 px-4`}
+          className={`bg-[#009444] ${openall === true || doneted.length<5? 'hidden':''} rounded-md text-white font-medium py-2 px-4`}
         >
           See All
         </button>

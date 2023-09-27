@@ -53,14 +53,14 @@ const Statistics = () => {
       <Nav></Nav>
 
       <div className="flex flex-col items-center justify-center">
-        <PieChart className="outline-none" width={400} height={400}>
+        <PieChart className="outline-none" width={200} height={300}>
           <Pie
             data={data1}
             cx="50%"
             cy="50%"
             labelLine={false}
             label={renderCustomizedLabel}
-            outerRadius={130}
+            outerRadius={100}
             
             fill="#8884d8"
             dataKey="value"
@@ -74,9 +74,13 @@ const Statistics = () => {
           </Pie>
           
         </PieChart>
-        <div className="flex items-center gap-3">
-           <span className="font-medium">Your Donation</span> <div className="bg-[#00C49F] mr-4 w-10 h-1"></div>
+        <div className="flex md:flex-row flex-col items-center gap-3">
+           <div className="flex items-center gap-3">
+           <span className="font-medium">Your Donation</span><div className="bg-[#00C49F] mr-4 w-10 h-1"></div>
+           </div>
+           <div className="flex items-center gap-3">
            <span className="font-medium">Total Donation</span> <div className="bg-[#FF444A] w-10 h-1"></div>
+           </div>
             
         </div>
       </div>

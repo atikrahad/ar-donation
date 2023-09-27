@@ -1,13 +1,15 @@
-import { useLocation, } from "react-router-dom";
+import { useLocation, useNavigate, } from "react-router-dom";
 import Nav from "../Navber/Nav";
 import { getStored, setData } from "../../utilitis/utlitis";
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+import { useState } from "react";
 
 
 const Selectcard = () => {
   const location = useLocation();
   const selectData = location.state;
+  const [open, setOpen] = useState('!open')
   
   const {
     Title,
@@ -25,12 +27,14 @@ const Selectcard = () => {
   
   const storedData = getStored();
   const finded = storedData.find(data => data ===selectData.id);
-  const handleClickDonated = () => {
+  const handleClickDonated = open => {
+      console.log(storedData);
     
-    if(!finded){
-        
+    if(!finded  ){
+        setData(selectData.id)
+        setOpen(open)
         toast.success('❤️Donate sucsessfull', {
-            position: "top-right",
+            position: "bottom-right",
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -39,11 +43,11 @@ const Selectcard = () => {
             progress: undefined,
             theme: "colored",
             });
-        setData(selectData.id)
+        
     }else{
         
         toast.warn('Already Donated', {
-            position: "top-right",
+            position: "bottom-right",
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -56,6 +60,10 @@ const Selectcard = () => {
        
   }
 
+  const navigate = useNavigate()
+  const handleClickCheack = ()=>{
+    navigate('/donation')
+  }
 
   return (
     <div>
@@ -65,11 +73,22 @@ const Selectcard = () => {
           <img className="  h-[80vh] rounded-md w-full" src={img} alt="" />
           <div className="bg-black rounded-b-md w-full h-16 absolute bottom-0 opacity-40"></div>
           <button
-            onClick={handleClickDonated}
+            onClick={()=>handleClickDonated(!open)}
             style={{ backgroundColor: Category_BG_Color, color: "white" }}
-            className="absolute rounded-md font-medium m-3 py-2 px-4 bottom-0"
+            className={`absolute ${
+                open? '' : 'hidden'
+            } rounded-md font-medium m-3 py-2 px-4 bottom-0`}
           >
             Donate ${Price}
+          </button>
+          <button
+            onClick={handleClickCheack}
+            style={{ backgroundColor: Category_BG_Color, color: "white" }}
+            className={`absolute ${
+                open? 'hidden' : ''
+            } rounded-md font-medium m-3 py-2 px-4 bottom-0`}
+          >
+            Cheack Donation
           </button>
         </div>
         <h1 className="font-bold text-2xl md:text-4xl pt-6 text-[#0B0B0B]">

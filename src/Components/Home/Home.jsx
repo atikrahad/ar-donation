@@ -1,5 +1,6 @@
 import {  useEffect, useState } from "react";
 import HomeDonationCard from "../HomeDonationCard/HomeDonationCard";
+import PropTypes from 'prop-types'
 
 
 
@@ -23,5 +24,7 @@ const Home = ({filteringdata}) => {
         </div>
     );
 };
-
+Home.propTypes = {
+    filteringdata: PropTypes.array.isRequired
+}
 export default Home;

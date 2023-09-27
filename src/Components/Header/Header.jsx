@@ -1,10 +1,11 @@
 import Banner from "../Banner/Banner";
 import Nav from "../Navber/Nav";
 import './Header.css'
+import PropTypes from 'prop-types' 
 
 const Header = ({handleCatagorySearch, handleSearchClick}) => {
     return (
-        <div className="header overlay  h-[80vh]">
+        <div className="header overlay  h-[60vh]">
             <Nav></Nav>
             <div className="flex items-center justify-center">
                 <div>
@@ -14,5 +15,8 @@ const Header = ({handleCatagorySearch, handleSearchClick}) => {
         </div>
     );
 };
-
+Header.propTypes = {
+    handleCatagorySearch: PropTypes.func.isRequired,
+    handleSearchClick: PropTypes.func.isRequired
+}
 export default Header;
