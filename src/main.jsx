@@ -8,28 +8,33 @@ import Home from "./Components/Home/Home";
 import Donation from "./Components/Donation/Donation";
 import Statistics from "./Components/Statistics/Statistics";
 import Selectcard from "./Components/SelectCard/Selectcard";
+import Eror from "./Components/Erorpage/Eror";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <Eror></Eror>,
   },
-  {
-    path: "/",
+      {
+        path: "/",
+    
+        element: <Home></Home>,
+      },
+      {
+        path: "/donation",
+        element: <Donation></Donation>,
+      },
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>,
+      },
+      {
+        path: "/selectcard",
+        element: <Selectcard></Selectcard>,
+      },
 
-    element: <Home></Home>,
-  },
-  {
-    path: "/donation",
-    element: <Donation></Donation>,
-  },
-  {
-    path: "/statistics",
-    element: <Statistics></Statistics>,
-  },
-  {
-    path: "/selectcard",
-    element: <Selectcard></Selectcard>,
-  },
+  
+  
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
